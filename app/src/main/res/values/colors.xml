@@ -6,5 +6,14 @@
     <color name="instagram_dark">#951B88</color>
     <color name="instagram_middle">#BC1871</color>
     <color name="instagram_bright">#D2522D</color>
-
+    <color name="transparent">#00000000</color>
+    <color name="real_black">#1D191B</color>
+    <color name="starbucks_green">#036635</color>
+    <color name="starbucks_gold">#B79855</color>
+    <color name="starbucks_background">#F6F5EF</color>
+    <color name="dark_purple">#462456</color>
+    <color name="purple">#6A3786</color>
+    <color name="light_purple">#9978AD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>

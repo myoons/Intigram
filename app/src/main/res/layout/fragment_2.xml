@@ -1,16 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentGallery">
+    android:orientation="vertical">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/text_gallery"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:fontFamily="@font/korean"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp"
+        android:text="Select Images from Gallery \n Tag People, Recall your Memories  "/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/text_gallery"
+        android:src="@drawable/friends_photo"/>
+
+    <GridView
+        android:id="@+id/gridViewImages"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="hello_Fragment 2"
-        android:textSize="25dp"
-        android:gravity="center"/>
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:numColumns="3"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+    </GridView>
 
-</FrameLayout>
+    <Button
+        android:layout_alignBottom="@+id/gridViewImages"
+        android:id="@+id/button_gallery"
+        android:background="@drawable/gallery"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="20dp"/>
+
+
+    <Button
+        android:layout_alignBottom="@+id/gridViewImages"
+        android:id="@+id/button_camera"
+        android:fontFamily="@font/ns_bold"
+        android:textColor="@android:color/black"
+        android:background="@drawable/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:layout_alignBottom="@+id/gridViewImages"
+        android:id="@+id/convey_button"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/arrow"
+        android:layout_height="50dp"
+        android:layout_width="50dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+</RelativeLayout>

@@ -19,25 +19,25 @@
             android:id="@+id/tab_Main"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Main" />
+            android:icon="@drawable/main_on" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tab_Item1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Address" />
+            android:icon="@drawable/address_on" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tab_Item2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gallery" />
+            android:icon="@drawable/gallery_on" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/tab_Item3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Intimacy" />
+            android:icon="@drawable/intigram_on"/>
 
     </com.google.android.material.tabs.TabLayout>
 

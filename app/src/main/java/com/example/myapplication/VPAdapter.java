@@ -21,17 +21,6 @@ public class VPAdapter extends FragmentPagerAdapter {
         items.add(new FragmentGallery());
         items.add(new FragmentIntimacy());
 
-        itext.add("Main");
-        itext.add("Address");
-        itext.add("Gallery");
-        itext.add("Intimacy");
-
-    }
-
-    @Nullable
-    @Override
-    public CharSequence getPageTitle(int position) {
-        return itext.get(position);
     }
 
     @NonNull

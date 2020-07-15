@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Intigram</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_ori">\Total : \</string>
+    <string name="basic_image">기본 이미지는 청설모</string>
+    <string name="no_inform">No information yet</string>
+    <string name="no_num">010-0000-0000</string>
+    <string name="low_storage_error">Low Storage Error</string>
+    <string name="nodata"></string>
+
 </resources>
